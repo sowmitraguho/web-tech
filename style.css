@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  color: #4A4A4A;
+}
+.logo a{
+  color: #4A4A4A;
+}
+section {
+  margin-bottom: 150px;
+}
+
+.text-color {
+  color: #4A4A4A;
+}
+
+.carousel-item {
+  max-height: 600px;
+}
+
+.carousel-title {
+  font-size: 60px;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.carousel-caption {
+  position: absolute;
+  align-items: center;
+  top: 30%;
+}
+
+
+
+.courses-heading {
+  font-size: 50px;
+}
+
+.row>* {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.bg-register {
+  background-color: #289BDE;
+}
+
+.text-register {
+  color: #289BDE;
+}
+
+.view-btn a:hover {
+  background-color: #42adeb;
+}
+
+.rating i {
+  color: gold;
+}
+
+.left-circle {
+  background-color: #bce2f8;
+}
+
+.left-circle i {
+  color: #289BDE;
+}
+
+.right-circle {
+  background-color: #289BDE;
+}
+
+.right-circle i {
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: #b2daf141;
+}
+
+footer {
+  height: 400px;
+}
+.icon-background{
+  background-color: #b2daf111;
+}
