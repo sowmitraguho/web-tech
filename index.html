@@ -122,7 +122,7 @@
     </section>
     <!-- course section  -->
     <section class="courses-section container">
-      <div class="courses-top text-lg-center mx-auto">
+      <div class="courses-top text-center mx-auto">
         <div class="courses-title mb-5">
           <h1 class="courses-heading fw-bold">
             Discover Our Popular Courses
@@ -186,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
@@ -220,7 +220,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
@@ -238,7 +238,7 @@
           </div>
         </div>
         <div class="view-btn d-flex justify-content-center">
-          <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 my-5">View All</a>
+          <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3">View All</a>
         </div>
       </div>
     </section>
@@ -260,7 +260,7 @@
                 </p>
                 <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
                   generators on the Internet tend to repeat predefined.</p>
-                <div class="data-section d-flex justify-content-between">
+                <div class="data-section d-flex justify-content-between flex-wrap">
                   <div class="data">
                     <h1 class="text-black fw-bold">3.2K+</h1>
                     <p class="fs-6">Online Course</p>
@@ -296,15 +296,15 @@
     </section>
     <!-- Student Section  -->
     <section class="student-section">
-      <div class="student-sect">
-        <div class="stu-title w-50 pe-5">
+      <div class="student-sect row">
+        <div class="stu-title col-lg-4 text-center text-lg-start px-4 px-lg-0">
           <h1 class="text-dark">Meet Our Successfull Students</h1>
           <p>It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout.</p>
         </div>
-        <div class="student-profile row gy-4 gx-lg-4">
-          <div class="col-lg">
-            <div class="card ms-2">
+        <div class="student-profile row px-4 px-lg-0 gx-0 gy-4 gx-lg-4">
+          <div class="col-lg d-none d-lg-block">
+            <div class="card">
               <img src="images/student/student-1.png" class="card-img-top" alt="...">
               <div class="card-body text-center text-lg-start">
                 <h5 class="card-title">Awlad Hossain</h5>
@@ -312,7 +312,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg ms-2">
+          <div class="col-lg">
             <div class="card">
               <img src="images/student/student-2.png" class="card-img-top" alt="...">
               <div class="card-body text-center text-lg-start">
@@ -321,7 +321,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg ms-2">
+          <div class="col-lg">
             <div class="card">
               <img src="images/student/student-3.png" class="card-img-top" alt="...">
               <div class="card-body text-center text-lg-start">
@@ -330,7 +330,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg ms-2">
+          <div class="col-lg">
             <div class="card">
               <img src="images/student/student-4.png" class="card-img-top" alt="...">
               <div class="card-body text-center text-lg-start">
@@ -342,87 +342,92 @@
         </div>
       </div>
       <div class="view-btn d-flex justify-content-center">
-        <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 my-5">View All</a>
+        <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 mt-3">View All</a>
       </div>
     </section>
     <!-- Feedback Section  -->
     <section class="feedback-section">
       <div class="feedback">
-        <div class="feedback-title w-50 mx-auto text-center mb-5">
+        <div class="feedback-title w-75 mx-auto text-center mb-5">
           <h1 class="mb-3 fw-bold text-dark">Some Students Feedback</h1>
           <p>It is a long established fact that a reader will be distracted by the readable
             content of a page when looking at its layout.</p>
         </div>
-        <div class="feedbacks-blog row g-4">
-          <div class="feedback-1 col-lg border rounded mx-2 p-4 position-relative">
-            <div class="d-none d-lg-block left-circle position-absolute top-50 start-0 translate-middle rounded-circle d-inline p-3">
-              <i class="fa-solid fa-angle-left"></i>
-            </div>
-            <div class="feedback-top d-flex justify-content-between">
-              <img src="images/comma.png" alt="">
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+        <div class="feedbacks-blog row gx-lg-4 gx-0 gy-4">
+          <div class="col-lg">
+            <div class="feedback-1 border rounded p-4 position-relative">
+              <div class="d-none d-lg-block left-circle position-absolute top-50 start-0 translate-middle rounded-circle d-inline p-3">
+                <i class="fa-solid fa-angle-left"></i>
               </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo non
-              excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
-              voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
-              assumenda?</p>
-            <div class="student d-flex">
-              <img src="images/student/student-5.png" class="" alt="">
-              <div class="student-id ps-3 my-auto">
-                <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
-                <p class="mb-0">UI Designer</p>
+              <div class="feedback-top d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
               </div>
-
-            </div>
-          </div>
-          <div class="feedback-1 col-lg border rounded mx-2 p-4 position-relative">
-            <div class="d-none d-lg-block right-circle position-absolute top-50 start-100 translate-middle rounded-circle d-inline p-3">
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-            <div class="feedback-top d-flex justify-content-between">
-              <img src="images/comma.png" alt="">
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo non
-              excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
-              voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
-              assumenda?</p>
-            <div class="student d-flex">
-              <img src="images/student/student-5.png" class="" alt="">
-              <div class="student-id ps-3 my-auto">
-                <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
-                <p class="mb-0">UI Designer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo non
+                excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
+                voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
+                assumenda?</p>
+              <div class="student d-flex">
+                <img src="images/student/student-5.png" class="" alt="">
+                <div class="student-id ps-3 my-auto">
+                  <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
+                  <p class="mb-0">UI Designer</p>
+                </div>
+  
               </div>
             </div>
           </div>
+          <div class="col-lg">
+            <div class="feedback-1 border rounded p-4 position-relative">
+              <div class="d-none d-lg-block right-circle position-absolute top-50 start-100 translate-middle rounded-circle d-inline p-3">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="feedback-top d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo non
+                excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
+                voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
+                assumenda?</p>
+              <div class="student d-flex">
+                <img src="images/student/student-5.png" class="" alt="">
+                <div class="student-id ps-3 my-auto">
+                  <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
+                  <p class="mb-0">UI Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div class="view-btn d-lg-none d-flex justify-content-center">
-            <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 my-5">View All</a>
+            <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3">View All</a>
           </div>
         </div>
       </div>
     </section>
     <!-- Frequently Asked Section  -->
     <section class="frequent-question">
-      <div class="frequent-ask-section mx-auto text-center mb-5">
-        <h1 class="mb-3 fw-bold text-dark">Frequently Asked Question</h1>
-        <p class="w-75 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel. Cum id veniam voluptate impedit
+      <div class="frequent-ask-section text-lg-center w-75 mx-auto mb-5">
+        <h1 class="mb-3 fw-bold text-dark text-center">Frequently Asked Question</h1>
+        <p class="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel. Cum id veniam voluptate impedit
           aspernatur! Autem atque distinctio eaque!</p>
       </div>
-      <div class="questions w-75 mx-auto">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item mb-3 border-0">
+      <div class="questions mx-auto">
+        <div class="accordion accordion-flush row" id="accordionFlushExample">
+          <div class="accordion-item col-lg-8 mx-lg-auto mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -435,7 +440,7 @@
                 <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
             </div>
           </div>
-          <div class="accordion-item mb-3 border-0">
+          <div class="accordion-item col-lg-8 mx-lg-auto mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -449,7 +454,7 @@
                 filled with some actual content.</div>
             </div>
           </div>
-          <div class="accordion-item mb-3 border-0">
+          <div class="accordion-item col-lg-8 mx-lg-auto mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -464,7 +469,7 @@
                 glance, a bit more representative of how this would look in a real-world application.</div>
             </div>
           </div>
-          <div class="accordion-item mb-3 border-0">
+          <div class="accordion-item col-lg-8 mx-lg-auto mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -514,11 +519,11 @@
   </main>
 
   <!-- Footer  -->
-  <footer class="footer-section bg-dark d-flex justify-content-center align-items-center">
+  <footer class="footer-section bg-dark d-flex justify-content-center align-items-center pb-5 pb-lg-0">
     <div class="footer">
-      <div class="footer-title text-center">
-        <h1 class="text-light">Web Tech</h1>
-        <p class="address text-light fs-4">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
+      <div class="footer-title text-center pb-5 pb-lg-0">
+        <h2 class="text-light">Web Tech</h2>
+        <p class="address text-light fs-5">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
         <div class="footer-link text-light">
           <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
           <span class="text-light">|</span>
