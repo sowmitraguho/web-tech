@@ -49,7 +49,7 @@
             </li>
           </ul>
         </div>
-        <div class="register-btn">
+        <div class="register-btn d-none d-lg-block">
           <button type="button" class="btn btn-outline-primary fw-bold px-4">Register</button>
         </div>
       </div>
@@ -57,20 +57,20 @@
   </header>
   <main class="container">
     <section class="top-section">
-      <div class="top-slider container">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      <div class="top-slider container d-none d-lg-block">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active d-none d-md-block"
               aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
+              aria-label="Slide 2" class="d-none d-md-block"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+              aria-label="Slide 3" class="d-none d-md-block"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="images/cover/cover-1.png" class="d-block w-100" alt="carousel image">
-              <div class="carousel-caption d-none d-md-block w-50 mx-auto">
+              <div class="carousel-caption mx-auto">
                 <h2 class="carousel-title">Get Started Digital Learning</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable
                   content of a page when looking at its layout.</p>
@@ -79,7 +79,7 @@
             </div>
             <div class="carousel-item">
               <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="carousel image">
-              <div class="carousel-caption d-none d-md-block w-50 mx-auto my-auto">
+              <div class="carousel-caption mx-auto my-auto">
                 <h2 class="carousel-title">Get Started Digital Learning</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable
                   content of a page when looking at its layout.</p>
@@ -88,7 +88,7 @@
             </div>
             <div class="carousel-item">
               <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="carousel image">
-              <div class="carousel-caption d-none d-md-block w-50 mx-auto my-auto">
+              <div class="carousel-caption mx-auto my-auto">
                 <h2 class="carousel-title">Get Started Digital Learning</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable
                   content of a page when looking at its layout.</p>
@@ -107,11 +107,19 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-  
+
+      </div>
+      <div class="top d-flex align-items-center d-lg-none">
+        <div class="top-caption w-75 h-100 text-center mx-auto text-light">
+          <h2 class="top-title">Get Started Digital Learning</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.</p>
+          <button type="button" class="btn btn-primary px-4 py-2">Get Started</button>
+        </div>
       </div>
     </section>
-    <section class="courses-section">
-      <div class="courses-top w-50 text-center mx-auto">
+    <section class="courses-section container">
+      <div class="courses-top text-lg-center mx-auto">
         <div class="courses-title mb-5">
           <h1 class="courses-heading fw-bold">
             Discover Our Popular Courses
@@ -122,12 +130,12 @@
           </p>
         </div>
       </div>
-      <div class="courses row gx-5 gy-4">
+      <div class="courses row gx-lg-5 gy-4 ">
         <div class="col-lg-6">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-1.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -145,7 +153,7 @@
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-2.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -162,7 +170,7 @@
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-3.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -179,7 +187,7 @@
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-4.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -196,7 +204,7 @@
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-5.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -213,7 +221,7 @@
           <div class="card">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="">
+                <img src="images/course/course-6.png" class="rounded-start w-100" alt="">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -226,7 +234,9 @@
             </div>
           </div>
         </div>
-        
+        <div class="view-btn d-flex justify-content-center">
+          <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 my-5">View All</a>
+        </div>
       </div>
     </section>
     <section class="explore-section">
@@ -268,13 +278,13 @@
       </div>
     </section>
     <section class="register-section bg-register rounded-2">
-      <div class="register p-5 d-flex justify-content-between">
-        <div class="register-title w-50">
-          <h1 class="text-light">Ready to join?</h1>
+      <div class="register p-5 row">
+        <div class="register-title col-lg-6">
+          <h1 class="text-light text-center text-lg-start">Ready to join?</h1>
           <p class="text-light">It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout.</p>
         </div>
-        <div class="register-button my-auto me-4">
+        <div class="register-button col-lg-6 text-center text-lg-end my-lg-auto">
           <a class="btn btn-light text-register fw-bold fs-5 px-4">Register Now</a>
         </div>
       </div>
@@ -286,38 +296,38 @@
           <p>It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout.</p>
         </div>
-        <div class="student-profile row g-4">
-          <div class="col">
-            <div class="card">
+        <div class="student-profile row gy-4 gx-lg-4">
+          <div class="col-lg">
+            <div class="card ms-2">
               <img src="images/student/student-1.png" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body text-center text-lg-start">
                 <h5 class="card-title">Awlad Hossain</h5>
                 <p class="card-text">UIUX Designer</p>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg ms-2">
             <div class="card">
               <img src="images/student/student-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body text-center text-lg-start">
                 <h5 class="card-title">Jannatul Islam</h5>
                 <p class="card-text">Motion Design</p>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg ms-2">
             <div class="card">
               <img src="images/student/student-3.png" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body text-center text-lg-start">
                 <h5 class="card-title">Imran Hossain</h5>
                 <p class="card-text">Graphic Designer</p>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg ms-2">
             <div class="card">
               <img src="images/student/student-4.png" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body text-center text-lg-start">
                 <h5 class="card-title">Nishi Akter</h5>
                 <p class="card-text">Web Developer</p>
               </div>
@@ -337,8 +347,8 @@
             content of a page when looking at its layout.</p>
         </div>
         <div class="feedbacks-blog row g-4">
-          <div class="feedback-1 col border rounded mx-2 p-4 position-relative">
-            <div class="left-circle position-absolute top-50 start-0 translate-middle rounded-circle d-inline p-3">
+          <div class="feedback-1 col-lg border rounded mx-2 p-4 position-relative">
+            <div class="d-none d-lg-block left-circle position-absolute top-50 start-0 translate-middle rounded-circle d-inline p-3">
               <i class="fa-solid fa-angle-left"></i>
             </div>
             <div class="feedback-top d-flex justify-content-between">
@@ -361,11 +371,11 @@
                 <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
                 <p class="mb-0">UI Designer</p>
               </div>
-  
+
             </div>
           </div>
-          <div class="feedback-1 col border rounded mx-2 p-4 position-relative">
-            <div class="right-circle position-absolute top-50 start-100 translate-middle rounded-circle d-inline p-3">
+          <div class="feedback-1 col-lg border rounded mx-2 p-4 position-relative">
+            <div class="d-none d-lg-block right-circle position-absolute top-50 start-100 translate-middle rounded-circle d-inline p-3">
               <i class="fa-solid fa-angle-right"></i>
             </div>
             <div class="feedback-top d-flex justify-content-between">
@@ -388,64 +398,84 @@
                 <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
                 <p class="mb-0">UI Designer</p>
               </div>
-  
             </div>
+          </div>
+          <div class="view-btn d-lg-none d-flex justify-content-center">
+            <a class="btn bg-register text-light fw-bold fs-5 px-5 py-3 my-5">View All</a>
           </div>
         </div>
       </div>
     </section>
     <section class="frequent-question">
-      <div class="frequent-ask-section w-50 mx-auto text-center mb-5">
+      <div class="frequent-ask-section mx-auto text-center mb-5">
         <h1 class="mb-3 fw-bold text-dark">Frequently Asked Question</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel. Cum id veniam voluptate impedit aspernatur! Autem atque distinctio eaque!</p>
+        <p class="w-75 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel. Cum id veniam voluptate impedit
+          aspernatur! Autem atque distinctio eaque!</p>
       </div>
       <div class="questions w-75 mx-auto">
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 What is semantic tag?
               </button>
             </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
             </div>
           </div>
           <div class="accordion-item mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 What is css box model?
               </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                filled with some actual content.</div>
             </div>
           </div>
           <div class="accordion-item mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 What are the differences between flexbox and grid?
               </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.</div>
             </div>
           </div>
           <div class="accordion-item mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 What are the differences between bootstrap and tailwind?
               </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
-    <section class="company-section">
+
+    <section class="company-section d-none d-lg-block">
       <div class="trusted-companies w-100 mx-auto">
         <div class="title text-center mb-5">
           <h1>Trusted by over 800+ companies</h1>
@@ -472,25 +502,29 @@
         </div>
       </div>
     </section>
-  
+
   </main>
-  
-  
+
+
   <footer class="footer-section bg-dark d-flex justify-content-center align-items-center">
-    <div class="footer w-25">
+    <div class="footer">
       <div class="footer-title text-center">
         <h1 class="text-light">Web Tech</h1>
-        <p class="address text-light">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+        <p class="address text-light fs-4">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
         <div class="footer-link text-light">
           <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
           <span class="text-light">|</span>
           <a href="#" class="text-light text-decoration-none">Terms of use</a>
         </div>
         <div class="social-link mt-3">
-          <a href="#" class=""><i class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-facebook-f"></i></a>
-          <a href="#" class=""><i class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-twitter"></i></a>
-          <a href="#" class=""><i class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-linkedin"></i></a>
-          <a href="#" class=""><i class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-tiktok"></i></a>
+          <a href="#" class=""><i
+              class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-facebook-f"></i></a>
+          <a href="#" class=""><i
+              class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-twitter"></i></a>
+          <a href="#" class=""><i
+              class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-linkedin"></i></a>
+          <a href="#" class=""><i
+              class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-tiktok"></i></a>
         </div>
       </div>
 
