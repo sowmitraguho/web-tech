@@ -13,6 +13,7 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,24 +35,25 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item mx-3 fw-bold">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#courses">Courses</a>
             </li>
             <li class="nav-item mx-3 fw-bold">
-              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#feedback">Feedback</a>
             </li>
             <li class="nav-item mx-3 fw-bold">
-              <a class="nav-link" href="#">Success</a>
+              <a class="nav-link" href="#success">Success</a>
             </li>
             <li class="nav-item mx-3 fw-bold">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#footer">About</a>
             </li>
             <li class="nav-item mx-3 fw-bold">
-              <a class="nav-link" href="#">Register</a>
+              <a class="nav-link" href="#register">Register</a>
             </li>
           </ul>
         </div>
         <div class="register-btn d-none d-lg-block">
-          <button type="button" class="btn btn-outline-primary fw-bold px-4">Register</button>
+          <button type="button" data-toggle="modal" data-target="#exampleModal"
+            class="btn btn-outline-primary fw-bold px-4">Register</button>
         </div>
       </div>
     </nav>
@@ -74,8 +76,9 @@
               <img src="images/cover/cover-1.png" class="d-block w-100" alt="carousel image">
               <div class="carousel-caption mx-auto mb-lg-5 pb-lg-5">
                 <h2 class="carousel-title">Get Started Digital Learning</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.</p>
+                <p>Education can also benefit from digital learning as a collaboration tool, by bringing people together
+                  through video conferencing, enabling students and teachers to use shared documents, or simply by
+                  helping to prepare students for the world of work.</p>
                 <button type="button" class="btn btn-primary px-4 py-2">Get Started</button>
               </div>
             </div>
@@ -121,15 +124,15 @@
       </div>
     </section>
     <!-- course section  -->
-    <section class="courses-section">
+    <section class="courses-section" id="courses">
       <div class="courses-top text-center mx-auto">
         <div class="courses-title mb-5">
           <h1 class="courses-heading fw-bold">
             Discover Our Popular Courses
           </h1>
           <p class="courses-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quas suscipit expedita ipsa vero placeat
-            voluptatum praesentium aperiam enim obcaecati!
+            Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees
+            from world-class universities and companies.
           </p>
         </div>
       </div>
@@ -282,7 +285,7 @@
       </div>
     </section>
     <!-- Register Section  -->
-    <section class="register-section bg-register rounded-2">
+    <section class="register-section bg-register rounded-2" id="register">
       <div class="register p-5 row">
         <div class="register-title col-lg-6">
           <h1 class="text-light text-center text-lg-start">Ready to join?</h1>
@@ -293,10 +296,6 @@
           <button type="button" data-toggle="modal" data-target="#exampleModal"
             class="btn btn-light text-register fw-bold fs-5 px-4">Register Now</button>
         </div>
-        <!-- Button trigger modal -->
-        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button> -->
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -335,12 +334,14 @@
       </div>
     </section>
     <!-- Student Section  -->
-    <section class="student-section">
+    <section class="student-section" id="success">
       <div class="student-sect row">
         <div class="stu-title col-lg-4 text-center text-md-start px-4 px-lg-0">
           <h1 class="text-dark">Meet Our Successfull Students</h1>
-          <p>It is a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout.</p>
+          <p>Your hard work and dedication to your studies make you shine like a star! We are proud of who you are. We
+            know you will accomplish everything that you set out to accomplish, all because you set your mind to it! No
+            matter what anyone tells you, don’t give up! Keep at it. If you’re meant to be something someday you will
+            be!</p>
         </div>
         <div class="student-profile row px-4 px-lg-0 gx-0 gy-4 gx-md-4">
           <div class="col-lg col-md-6 d-none d-md-block">
@@ -386,12 +387,13 @@
       </div>
     </section>
     <!-- Feedback Section  -->
-    <section class="feedback-section">
+    <section class="feedback-section" id="feedback">
       <div class="feedback">
         <div class="feedback-title w-75 mx-auto text-center mb-5">
           <h1 class="mb-3 fw-bold text-dark">Some Students Feedback</h1>
-          <p>It is a long established fact that a reader will be distracted by the readable
-            content of a page when looking at its layout.</p>
+          <p>Feedback is any response regarding a student's performance or behavior. It can be verbal, written or
+            gestural. The purpose of feedback in the assessment and learning process is to improve a student's
+            performance - not put a damper on it.</p>
         </div>
         <div class="feedbacks-blog row gx-lg-4 gx-0 gy-4">
           <div class="col-lg">
@@ -410,11 +412,8 @@
                   <i class="fa-regular fa-star"></i>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo
-                non
-                excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
-                voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
-                assumenda?</p>
+              <p>This was a very immersive and interesting course -- a lot of self-learning to be done on your own to
+                really understand and put together into practice the technology into your own course and workflow.</p>
               <div class="student d-flex">
                 <img src="images/student/student-5.png" class="" alt="">
                 <div class="student-id ps-3 my-auto">
@@ -441,16 +440,13 @@
                   <i class="fa-regular fa-star"></i>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti iure eius deleniti atque illo
-                non
-                excepturi magnam vitae quae provident consectetur sint repudiandae voluptatum distinctio fugiat,
-                voluptatibus ducimus dolores voluptatem porro explicabo dolor nulla. Voluptas quibusdam sint suscipit
-                assumenda?</p>
+              <p>Thank you for this course. I get know experience and knowledge in using different kinds of online tools
+                which are useful and effective. I'll use some of them during my lessons. And lots of thanks.</p>
               <div class="student d-flex">
-                <img src="images/student/student-5.png" class="" alt="">
+                <img src="images/student/student-6.png" class="" alt="">
                 <div class="student-id ps-3 my-auto">
-                  <h4 class="student-name fs-6 mb-0">Awlad Hossain</h4>
-                  <p class="mb-0">UI Designer</p>
+                  <h4 class="student-name fs-6 mb-0">Shanta Akter</h4>
+                  <p class="mb-0">Graphic Designer</p>
                 </div>
               </div>
             </div>
@@ -481,8 +477,20 @@
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the first item's accordion body.
+              <div class="accordion-body">
+                <p>
+                  If you know a little about HTML, you will know that HTML tags are (mostly) used to format content -
+                  these tags tell the browser how to display the content on the page. They give no indication as to what
+                  type of content they contain or what role that content plays in the page.
+
+                  Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is
+                  played by the content those tags contain. That explicit information helps robots/crawlers like Google
+                  and Bing to better understand which content is important, which is a subsidiary, which is for
+                  navigation, and so on.
+
+                  By adding semantic HTML tags to your pages, you provide additional information that helps Google and
+                  Bing understand the roles and relative importance of the different parts of your page.
+                </p>
               </div>
             </div>
           </div>
@@ -495,9 +503,15 @@
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                filled with some actual content.
+              <div class="accordion-body">
+                <p>
+                  When laying out a document, the browser's rendering engine represents each element as a rectangular
+                  box according to the standard CSS basic box model. CSS determines the size, position, and properties
+                  (color, background, border size, etc.) of these boxes.
+
+                  Every box is composed of four parts (or areas), defined by their respective edges: the content edge,
+                  padding edge, border edge, and margin edge.
+                </p>
               </div>
             </div>
           </div>
@@ -510,26 +524,66 @@
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                happening here in terms of content, but just filling up the space to make it look, at least at first
-                glance, a bit more representative of how this would look in a real-world application.
+              <div class="accordion-body">
+                <p>Layout
+                  – The very first and the most important difference between the two layout modules is that CSS Flexbox
+                  is a one-dimensional layout model whereas CSS Grid is a two-dimensional model. By one-dimensional it
+                  means a Flexbox container can either facilitate laying out things in a row, or lay them out in a
+                  column.
+
+                  The CSS Grid, on the other hand, can facilitate laying out items across and down at once, meaning you
+                  can work along two axes, vertically and horizontally, which the CSS Flexbox cannot do. Grid thinks
+                  about rows and columns at the same time.
+
+                  Control
+                  – CSS Flexbox helps you organize things horizontally in one direction or organize things vertically in
+                  one direction. The calculations are done in each row, one at a time with no regards to the other rows,
+                  and you can adjust justification and alignment controls inside each of these.
+                  CSS Grid, on the other hand, gives you layout controls that work perfectly in two directions, which
+                  means it allows you to organize wherever you want inside of your grid cells.
+                  Overlapping
+                  – There are things that both Flexbox and Grid can do, meaning there are situations where they
+                  basically could do the same thing. But there is one thing Grid can do and the Flexbox cannot do is
+                  intentionally overlap items. For example, in magazine layouts you can see there are overlapping
+                  elements all the time. You can see layouts with little bits and little pieces overlapping other bits
+                  and other pieces.
+                  CSS Grid helps you create layouts with overlapping elements to create interest or help you do some
+                  kind of an asymmetrical layout. This is something that is not possible with Flexbox.
+                  Use Cases
+                  – Flexbox is basically content based. It listens to the content and adjusts to it. Grid operates more
+                  on the layout level and it is container based, meaning it basically dictates the structure.
+                  So, CSS Grid is useful when you want to define a large-scale layout, while CSS Flexbox can be used on
+                  a smaller scale for flexible elements.
+                  Flexbox can be used for scaling, one-sided aligning, and organizing elements within a container. Grid
+                  can be used to create more complex and subtle design layouts, and when there is a gap between block
+                  elements.</p>
               </div>
             </div>
           </div>
           <div class="accordion-item col-lg-8 mx-lg-auto mb-3 border-0">
             <h2 class="accordion-header" id="flush-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
                 What are the differences between bootstrap and tailwind?
               </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                happening here in terms of content, but just filling up the space to make it look, at least at first
-                glance, a bit more representative of how this would look in a real-world application.
+              <div class="accordion-body">
+                <p>
+                  Bootstrap is the most popular HTML, CSS, and JavaScript framework for building responsive,
+                  mobile-first projects on the web. Tailwind CSS, on the other hand, is the most popular utility-first
+                  CSS framework for fast UI development.
+
+                  The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI
+                  kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have a default theme or built-in
+                  UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
+
+                  Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS typically value the
+                  framework’s customizability. The best choice for you depends on your priorities and project
+                  requirements, but let’s talk about why Tailwind CSS is quickly gaining popularity and more widespread
+                  use.
+                </p>
               </div>
             </div>
           </div>
@@ -568,7 +622,8 @@
   </main>
 
   <!-- Footer  -->
-  <footer class="footer-section bg-dark d-flex justify-content-center align-items-center pb-5 pb-lg-0 mb-0 pb-0">
+  <footer class="footer-section bg-dark d-flex justify-content-center align-items-center pb-5 pb-lg-0 mb-0 pb-0"
+    id="footer">
     <div class="footer">
       <div class="footer-title text-center pb-5 pb-lg-0">
         <h2 class="text-light">Web Tech</h2>
@@ -579,13 +634,13 @@
           <a href="#" class="text-light text-decoration-none">Terms of use</a>
         </div>
         <div class="social-link mt-3">
-          <a href="#" class=""><i
+          <a href="https://www.facebook.com/programmingHero/" class=""><i
               class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-facebook-f"></i></a>
-          <a href="#" class=""><i
+          <a href="https://twitter.com/programminghero?lang=en" class=""><i
               class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-twitter"></i></a>
-          <a href="#" class=""><i
+          <a href="https://www.linkedin.com/company/programminghero" class=""><i
               class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-linkedin"></i></a>
-          <a href="#" class=""><i
+          <a href="https://www.tiktok.com/@programminghero?lang=en" class=""><i
               class="icon-background p-3 rounded-circle text-light fs-5 mx-2 fa-brands fa-tiktok"></i></a>
         </div>
       </div>
@@ -603,6 +658,9 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 </body>
 
