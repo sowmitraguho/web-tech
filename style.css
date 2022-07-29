@@ -21,7 +21,6 @@ section {
 }
 
 .carousel-item {
-  min-height: 400px;
   max-height: 600px;
 }
 
@@ -40,11 +39,11 @@ section {
   background-color: rgba(0, 0, 0, 0.555);
 }
 
-.carousel-caption {
+/* .carousel-caption {
   position: absolute;
   align-items: center;
-  top: 30%;
-}
+  top: 20%;
+} */
 
 .top {
   min-height: 400px;
